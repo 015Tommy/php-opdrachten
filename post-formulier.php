@@ -1,13 +1,13 @@
 <?php
-session_start(); // Nodig voor sessies als je die later wilt gebruiken
+session_start(); 
 
-// Controleer of het formulier is verzonden
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Haal de naam op en ontsnap deze voor veiligheid
+    
     $naam = htmlspecialchars($_POST['naam']);
     echo "Welkom, " . $naam . "!";
 } else {
-    // Toon het formulier
+   
     ?>
 
     <form method="POST" action="post-formulier.php">

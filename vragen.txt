@@ -7,3 +7,8 @@ opdracht 2
 1 B
 2 B
 3 A
+
+opdracht 3
+1 C
+2 B
+3 B
